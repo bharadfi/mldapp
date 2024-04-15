@@ -59,7 +59,7 @@ def predict_diabetes_risk_category(model, input_data):
 loaded_model = load_model()
 
 # Streamlit user interface for input
-st.title('Diabetes Risk Prediction App')
+st.title('Diabetes Risk Predictor')
 
 # User input fields
 gender = st.selectbox('Gender', ['Male', 'Female'], index=1)
