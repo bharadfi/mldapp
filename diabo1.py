@@ -64,10 +64,10 @@ st.title('Diabetes Risk Prediction App')
 
 # Sidebar for project and team member names
 st.sidebar.title('MLD Group 5 (2023-24) - BANA8090')
-st.sidebar.write('TEAM MEMBERS')
+st.sidebar.write('CONTRIBUTED BY')
 team_members = ['Akanksha Bajpai', 'Annika Braaten', 'Falguni Bharadwaj', 'Tanmay Khairnar', 'Anjali Singh Parihar']
 random.shuffle(team_members)  # Shuffling the team member names
-st.sidebar.write('Team Members:')
+st.sidebar.write('TEAM MEMBERS:')
 for member in team_members:
     st.sidebar.write(member)
 
