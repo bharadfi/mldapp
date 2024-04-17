@@ -81,7 +81,7 @@ smoking_history_encoded = {'non-smoker': 1, 'past-smoker': 2, 'current-smoker': 
 input_features = np.array([[gender_encoded, age, hypertension_encoded, heart_disease_encoded, smoking_history_encoded, bmi, hba1c_level, blood_glucose_level]])
 
 # Predict button and displaying the categorized risk and advice
-if st.button('Predict Risk of Diabetes'):
+if st.button('Click Here to Check Risk of Diabetes'):
     probability, risk_category, advice = predict_diabetes_risk_category(loaded_model, input_features)
     st.markdown(f"<h2 style='font-weight: bold; font-size: 30px;'>{risk_category}</h2>", unsafe_allow_html=True)
     st.markdown(advice, unsafe_allow_html=True)
