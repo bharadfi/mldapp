@@ -71,6 +71,15 @@ st.sidebar.write('TEAM MEMBERS:')
 for member in team_members:
     st.sidebar.write(member)
 
+# Download link for the standalone app
+url = "https://mailuc-my.sharepoint.com/personal/bharadfi_mail_uc_edu/_layouts/15/download.aspx?SourceUrl=%2Fpersonal%2Fbharadfi%5Fmail%5Fuc%5Fedu%2FDocuments%2FDiabetes%20Risk%20Predictor%2Ezip"
+st.markdown(
+    f"<a href='{url}' target='_blank'>"
+    "<img src='logo.png' "
+    "alt='Download for Windows' style='width:150px; height:auto; margin-top:10px;'></a>",
+    unsafe_allow_html=True
+)
+
 # User input fields
 gender = st.selectbox('Gender', ['Male', 'Female'], index=1)
 age = st.slider('Age', 0, 100, 54)
