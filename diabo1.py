@@ -76,7 +76,8 @@ url = "https://mailuc-my.sharepoint.com/personal/bharadfi_mail_uc_edu/_layouts/1
 st.markdown(
     f"<a href='{url}' target='_blank'>"
     "<img src='https://logodownload.org/wp-content/uploads/2022/07/microsoft-store-logo-0-2048x2048.png' "
-    "alt='Download for Windows' style='width:150px; height:auto; margin-top:10px;'></a>",
+    "alt='Download for Windows' style='width:80px; height:auto; margin-top:10px;'></a>",
+    "<div style='margin-top: 5px;'>Click on the image to download standalone app for Windows(x86/x64)</div>",
     unsafe_allow_html=True
 )
 
