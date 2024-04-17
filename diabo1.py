@@ -43,10 +43,10 @@ def predict_diabetes_risk_category(model, input_data):
     </span>
     """
 
-    if diabetes_probability < 0.1:
+    if diabetes_probability < 0.2:
         risk_category = "Low Risk of having diabetes"
         advice = low_risk_advice
-    elif diabetes_probability < 0.35:
+    elif diabetes_probability < 0.8:
         risk_category = "Medium Risk of Having Diabetes"
         advice = medium_risk_advice
     else:
