@@ -67,7 +67,7 @@ st.sidebar.title('App Developed By:')
 #st.sidebar.write('TEAM MEMBERS')
 team_members = ['Falguni Bharadwaj']
 random.shuffle(team_members)  # Shuffling the team member names
-st.sidebar.write('Team Members:')
+#st.sidebar.write('Team Members:')
 for member in team_members:
     st.sidebar.write(member)
     
