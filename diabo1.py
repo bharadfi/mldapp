@@ -63,9 +63,9 @@ loaded_model = load_model()
 st.title('Diabetes Risk Prediction App')
 
 # Sidebar for project and team member names
-st.sidebar.title('MLD Group 5 (2023-24) - BANA8090')
-st.sidebar.write('TEAM MEMBERS')
-team_members = ['Akanksha Bajpai', 'Annika Braaten', 'Falguni Bharadwaj', 'Tanmay Khairnar', 'Anjali Singh Parihar']
+st.sidebar.title('App Developed By:')
+#st.sidebar.write('TEAM MEMBERS')
+team_members = ['Falguni Bharadwaj']
 random.shuffle(team_members)  # Shuffling the team member names
 st.sidebar.write('Team Members:')
 for member in team_members:
